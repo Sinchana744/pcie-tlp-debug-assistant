@@ -1,0 +1,17 @@
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pcie-debug-assistant"
+version = "0.1.0"
+description = "PCIe TLP log analyzer and debugging dashboard"
+requires-python = ">=3.12"
+dependencies = [
+    "streamlit",
+    "anthropic",
+]
+
+[tool.setuptools.packages.find]
+include = ["pcie_debug*"]
