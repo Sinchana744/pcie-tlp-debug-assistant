@@ -65,3 +65,10 @@ docker build -t pcie-debug . && docker run -p 8501:8501 pcie-debug
 - Parsers for real simulator output (UVM logs, FSDB/VCD)
 - Flow-control credit and ordering rules; Gen3+ equalization states
 - Resume screening & marketing-content modules reusing the same LLM layer
+
+
+## Dashboard Preview
+
+Here is a screenshot of the PCIe Debug Assistant dashboard.
+
+![PCIe Debug Dashboard](docs/images/dashboard.png)
